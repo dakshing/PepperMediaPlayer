@@ -1,0 +1,164 @@
+#AnchorPane{
+    -fx-background-color:transparent;
+    -fx-padding: 10 20 10 20;
+}
+
+#vbox{
+    -fx-background-radius: 5;
+    -fx-background-color: linear-gradient(#50434343 , #50000000);
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-padding: 1 1 1 1;
+}
+
+#hbox1{
+    -fx-background-color: linear-gradient(#434343 , #000000);
+    -fx-background-radius: 3;
+    -fx-padding: 0 10 5 0;
+}
+
+#close{
+    -fx-background-radius: 30em;
+    -fx-min-width: 8px;
+    -fx-min-height: 8px;
+    -fx-max-width: 8px;
+    -fx-max-height: 8px;
+}
+
+#mini{
+    -fx-background-radius: 30em;
+    -fx-min-width: 8px;
+    -fx-min-height: 8px;
+    -fx-max-width: 8px;
+    -fx-max-height: 8px;
+}
+
+#hbox2{
+    -fx-background-color: #000000;
+    -fx-background-radius: 3;
+    -fx-padding: 0 10 5 0;
+}
+
+#title{
+    -fx-padding: 0 55 0 0;
+    -fx-text-fill: #cbcbcb;
+}
+
+#timer1{
+    -fx-font-size: 24pt;
+    -fx-text-fill: greenyellow;
+    -fx-padding: 5 0 0 15;
+}
+
+#timer2{
+    -fx-font-size: 24pt;
+    -fx-text-fill: greenyellow;
+    -fx-padding: 5 0 0 0;
+}
+
+#timer3{
+    -fx-font-size: 24pt;
+    -fx-text-fill: greenyellow;
+    -fx-padding: 5 0 0 0;
+}
+
+#volume{
+    -fx-font-size: 8pt;
+    -fx-text-fill: greenyellow;
+    -fx-padding: 10 0 0 10;
+}
+
+
+#volumePercent{
+    -fx-font-size: 8pt;
+    -fx-text-fill: greenyellow;
+    -fx-padding: 10 0 0 0;
+}
+
+#voice{
+    -fx-font-size: 8pt;
+    -fx-text-fill: greenyellow;
+    -fx-padding: 0 0 0 10;
+
+}
+#voiceStatus{
+    -fx-font-size: 8pt;
+    -fx-text-fill: greenyellow;
+}
+
+#previous{
+    -fx-background-radius: 30em;
+    -fx-min-width: 25px;
+    -fx-min-height: 25px;
+    -fx-max-width: 25px;
+    -fx-max-height: 25px;
+    -fx-padding: 0 0 0 3;
+}
+
+#functions{
+    -fx-padding: 0 0 0 20;
+}
+
+#play{
+    -fx-background-radius: 30em;
+    -fx-min-width: 25px;
+    -fx-min-height: 25px;
+    -fx-max-width: 25px;
+    -fx-max-height: 25px;
+}
+
+#stop{
+    -fx-background-radius: 30em;
+    -fx-min-width: 25px;
+    -fx-min-height: 25px;
+    -fx-max-width: 25px;
+    -fx-max-height: 25px;
+}
+
+#next{
+    -fx-background-radius: 30em;
+    -fx-min-width: 25px;
+    -fx-min-height: 25px;
+    -fx-max-width: 25px;
+    -fx-max-height: 25px;
+}
+
+#pepper{
+    -fx-background-radius: 30em;
+    -fx-min-width: 25px;
+    -fx-min-height: 25px;
+    -fx-max-width: 25px;
+    -fx-max-height: 25px;
+}
+
+#playlist{
+    -fx-background-radius: 30em;
+    -fx-min-width: 25px;
+    -fx-min-height: 25px;
+    -fx-max-width: 25px;
+    -fx-max-height: 25px;
+}
+
+#volumeIcon{
+    -fx-background-radius: 30em;
+    -fx-min-width: 25px;
+    -fx-min-height: 25px;
+    -fx-max-width: 25px;
+    -fx-max-height: 25px;
+    -fx-padding: 0 0 2 0;
+}
+
+#timeSlider .thumb{
+    -fx-background-color: greenyellow;
+}
+
+#timeSlider .track {
+    -fx-background-color: #2F2F2F;
+}
+
+#volSlider .thumb{
+    -fx-background-color: white;
+}
+
+#volSlider .track {
+    -fx-background-color: #2F2F2F;
+}

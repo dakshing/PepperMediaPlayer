@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dakshin.mediaplayer.FXMLController" stylesheets="@background.css">
+    <VBox id="vbox" spacing="1" prefHeight="150" prefWidth="350">
+        <children>
+            <HBox alignment="CENTER_RIGHT" fx:id="hbox1" spacing="10" prefWidth="350" prefHeight="15">
+                <Label id="title" alignment="CENTER_LEFT" text="Pepper Media Player"></Label>
+                <Button fx:id="mini" onAction="#minimize">
+                    <graphic>
+                        <ImageView fitHeight="15" fitWidth="16">
+                            <Image url="resources/min.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="close" onAction="#closeWind">
+                    <graphic>
+                        <ImageView  fitHeight="15" fitWidth="16">
+                            <Image url="resources/cls.png"/>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                
+            </HBox>
+            <VBox id="hbox2" spacing="2" prefWidth="350" prefHeight="150">
+                <HBox spacing="2" >
+                    <Label fx:id="timer1" text="00:00"></Label>
+                    <Label id="timer2" text="/"></Label>
+                    <Label fx:id="timer3" text="00:00"></Label>
+                    <VBox>
+                        <HBox>
+                            <Label id="volume" text="Volume: "></Label>
+                            <Label fx:id="volumePercent" text="100%"></Label>
+                        </HBox>
+                        <HBox>
+                            <Label id="voice" text="Voice Assisstant: "></Label>
+                            <Label fx:id="voiceStatus" text="ON"></Label>
+                        </HBox>
+                    </VBox>                
+                </HBox>
+                <HBox fx:id="slider" alignment="CENTER" spacing="10" prefWidth="350" prefHeight="30"></HBox>
+                
+                <HBox fx:id="functions" spacing="10" prefWidth="350" prefHeight="30">
+                    <Button fx:id="previous" onAction="#previous">
+                        <graphic>
+                            <ImageView fitHeight="28" fitWidth="28">
+                                <Image url="resources/previous.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="play" onAction="#play">
+                        <graphic>
+                            <ImageView  fitHeight="28" fitWidth="28">
+                                <Image url="resources/pause.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="stop" onAction="#stop">
+                        <graphic>
+                            <ImageView  fitHeight="28" fitWidth="28">
+                                <Image url="resources/stop.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="next" onAction="#next">
+                        <graphic>
+                            <ImageView  fitHeight="28" fitWidth="28">
+                                <Image url="resources/next.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="pepper" onAction="#pepper">
+                        <graphic>
+                            <ImageView  fitHeight="28" fitWidth="28">
+                                <Image url="resources/pepper.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="playlist" onAction="#playList">
+                        <graphic>
+                            <ImageView  fitHeight="28" fitWidth="28">
+                                <Image url="resources/lists.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="volumeIcon" onAction="#mute">
+                        <graphic>
+                            <ImageView  fitHeight="28" fitWidth="28">
+                                <Image url="resources/volume.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                </HBox>
+            </VBox>
+        </children>
+    </VBox>
+</AnchorPane>

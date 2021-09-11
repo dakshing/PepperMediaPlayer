@@ -1,0 +1,45 @@
+#AnchorPane{
+    -fx-background-color:transparent;
+    -fx-padding: 10 20 10 20;
+}
+
+#vbox{
+    -fx-background-radius: 5;
+    -fx-background-color: linear-gradient(#50434343 , #50000000);
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-padding: 1 1 1 1;
+}
+
+#hbox1{
+    -fx-background-color: linear-gradient(#434343 , #000000);
+    -fx-background-radius: 3;
+    -fx-padding: 0 10 5 0;
+}
+
+#close{
+    -fx-background-radius: 30em;
+    -fx-min-width: 8px;
+    -fx-min-height: 8px;
+    -fx-max-width: 8px;
+    -fx-max-height: 8px;
+}
+
+#mini{
+    -fx-background-radius: 30em;
+    -fx-min-width: 8px;
+    -fx-min-height: 8px;
+    -fx-max-width: 8px;
+    -fx-max-height: 8px;
+}
+
+#hbox2{
+    -fx-background-color: #000000;
+    -fx-background-radius: 3;
+    -fx-padding: 0 10 5 0;
+}
+
+#title{
+    -fx-padding: 0 75 0 0;
+    -fx-text-fill: #cbcbcb;
+}
+
